@@ -1,0 +1,218 @@
+header div div div{
+    display: flex;
+    flex-direction: row;
+}
+
+header div div div h6{
+    margin-top: 6%;
+}
+
+#image_text{
+    display: flex;
+    flex-direction: column;
+    border: 2px;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 50%;
+    left: 50%;
+    text-align: right;
+    transform: translate(0%, -50%); 
+    margin-right: 10%;
+    justify-content: right;
+}
+.navbar-dark .nav-item .colorVerde {
+    color:green;
+}
+
+.fondoVerde{
+    background-color:rgb(0, 209, 0);
+}
+
+.boton_enviar{
+    background-color: rgb(135, 201, 59)
+}
+
+.navbar-dark-green{
+    background-color: rgb(2, 61, 78)
+}
+
+.oscurecer-img{
+    filter: brightness(50%);
+}
+
+.aclarar-img{
+    filter: brightness(150%);
+}
+
+.text-muted{
+    font-size: 0.8rem;
+}
+
+main{
+    margin: 0 auto;
+}
+
+.tarjetas{
+    display: flex;
+    justify-content: space-between;
+}
+
+.margin-ticket{
+    margin: -1rem 0 2rem 0;
+}
+
+.celeste{
+    background-color: rgb(204, 229, 255);
+}
+
+.green{
+    background-color: rgba(150, 201, 62, 0.966);
+    width: 49%;
+    color: white
+    }
+
+.margin-button{
+        margin:2rem 0 1rem 0;
+    }
+
+    .cardEstudiante{
+        margin-top: 1rem;
+        border: 0.15rem;
+        border-color:aqua;
+        border-style: solid;
+        text-align: center;
+        padding: 2%;
+    }
+    .cardTrainee{
+        margin-top: 1rem;
+        border: 0.15rem;
+        border-color:rgb(0, 255, 0);
+        border-style: solid;
+        text-align: center;
+        padding: 2%;
+        margin-left: 1rem
+    }
+    .cardJunior{
+        margin-top: 1rem;
+        margin-left: 1rem;
+        border: 0.15rem;
+        border-color:rgb(255, 217, 0);
+        border-style: solid;
+        text-align: center;
+        padding: 2%;
+    }
+    .cards{
+        display: flex;
+        justify-content: center;
+    }
+    .text{
+        padding-top: 1rem;
+        text-align: center;
+    }
+    
+    .btn-codo{
+        background-color: rgb(84, 180, 55);
+        color: #fff;
+        width: 100%;
+    }
+    .botones{
+        display: flex;
+        justify-content: center;
+    }
+    .nombreyapellido{
+        display: flex;
+        justify-content: center;
+    }
+    .email{
+        display: flex;
+        justify-content: center;
+    }
+    .cantidadycategoria{
+        display: flex;
+        justify-content: center;
+    }
+    .pagar{
+        display: flex;
+        justify-content: center;
+        width: 97%;
+        margin-left: 1.8rem;
+    }
+    .alert {
+        width: 50%;
+        padding-bottom: 0%;
+    }
+    .botones{
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer{
+        padding-top: 1rem;
+        color: aliceblue;
+    }
+    .collapsefooter {
+        justify-content: center !important;
+        padding-right: 5%;
+    }
+    
+    <!--java-->
+    body {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: #fafafa;
+    }
+    /* Colores */
+    .navbar-gray {
+        background-color: #353a40;
+    }
+    .bg-image {
+        background: rgba(0, 0, 0, 0.74);
+    }
+    .btn-green {
+        background: #96c93e !important;
+    }
+    
+    .footer-gradient {
+        background: linear-gradient(to right, #1c3643, #1d5271);
+    }
+    
+    /* Altura */
+    .height-100 {
+        height: 100%;
+    }
+    
+    .h-10 {
+        height: 40rem;
+    }
+    
+    /* Ancho */
+    .w-10 {
+        width: 10%;
+    }
+    
+    .w-51 {
+        width: 51%;
+    }
+    
+    .w-48 {
+        width: 48%;
+    }
+    .w-90 {
+        width: 90%;
+    }
+    
+    /* texto */
+    .text-underline {
+        text-decoration: dotted underline #353a40;
+        text-underline-offset: 2px;
+    }
+    
+    /* Bordes y margenes */
+    .radius-4 {
+        border-radius: 4px !important;
+    }
+    .me-8 {
+        margin-right: 8rem;
+    }
